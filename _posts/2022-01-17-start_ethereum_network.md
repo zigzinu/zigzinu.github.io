@@ -1,6 +1,6 @@
 ---
 published: true
-title: "이더리움 개발환결 구축"
+title: "Truffle을 이용한 이더리움 개발 Hands-on"
 category: ethereum
 tags:
   - truffle
@@ -14,7 +14,7 @@ tags:
 #   nav: sidebar-sample
 ---
 
-# Start Ethereum Network
+# Truffle을 이용한 이더리움 개발 Hands-on
 
 [Truffle 공식 사이트](https://trufflesuite.com/tutorial/index.html)에 제시된 튜토리얼을 따라 실습한다.
 
@@ -158,7 +158,7 @@ contract Adoption {
 - `view`: 함수가 컨트랙트의 상태(state)를 바꾸지 않을 것을 명시하는 키워드.
   - `getter` 함수는 기본적으로 `view`로 선언된다.
 
-### 4. Compile and Migrate
+### 4. Compilation
 
 솔리디티 코드는 bytecode로 컴파일해야 EVM 에서 실행할 수 있다.
 
@@ -168,3 +168,6 @@ truffle compile
 - 프로젝트의 root 디렉토리에서 실행
 
 ![](../assets/images/2022-01-18-16-04-01.png)
+
+### 4. Migration
+
