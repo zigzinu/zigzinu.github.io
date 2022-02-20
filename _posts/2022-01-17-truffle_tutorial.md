@@ -521,3 +521,4 @@ npm run dev
 2. Ganache 에서 Contracts 정보를 확인해보기 위해서는 truffle-config.json 을 인식시킬 수 있다.
   - 다만 필자는 truffle 은 리눅스 서버, 그리고 Ganache 는 윈도우에서 실행해서 인식이 잘 안됐다.
   - GUI를 포기하고 ganache-cli 를 써야한다면 시도해보겠다.
+3. geth 를 통한 테스트 네트워크상에서의 개발

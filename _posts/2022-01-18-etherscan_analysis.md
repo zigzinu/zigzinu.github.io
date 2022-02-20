@@ -35,7 +35,7 @@ CA, EOA, TX 등 다양한 조회 조건으로 관련된 정보들을 보기 편�
 
 [Stackoverflow 게시글](https://stackoverflow.com/questions/36291117/how-to-get-ethereum-transaction-list-by-address)에 따르면 그런 기능은 없다.
 [오픈 소스](https://github.com/Adamant-im/ETH-transactions-storage)를 이용해 Indexer라는 도구로 이더리움 노드에 접근하여 모든 트랜잭션을 수집하고 분류해야 한다.
-대안으로 퍼블릭 네트워크(메인넷, 테스트넷)의 모든 트랜잭션을 수집하고 분석해주는 Etherscan의 API를 활용할 수 있다.
+대안으로 퍼블릭 네트워크(메인넷, 테스트넷)의 모든 트랜잭션을 수집하고 분석해주는 Ethersca n의 API를 활용할 수 있다.
 
 <details>
 <summary>TODO</summary>
